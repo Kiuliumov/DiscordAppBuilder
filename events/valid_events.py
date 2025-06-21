@@ -1,4 +1,4 @@
-from dataclasses import dataclass, field
+from dataclasses import field, dataclass
 from typing import Set
 
 
