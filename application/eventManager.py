@@ -7,10 +7,6 @@ from exceptions.PermissionsMissingException import PermissionsMissingError
 from exceptions.RolesMissingException import RolesMissingError
 
 
-class InvalidEventError(Exception):
-    def __init__(self, message):
-        self.message = message
-        super().__init__(self.message)
 
 class EventManager:
     EVENTS = DiscordEvents()
